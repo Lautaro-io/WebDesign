@@ -5,6 +5,8 @@
 
 html , body{
     height: 100%;
+    background-color: black;
+    color: white;
     margin : 0;
 }
 
@@ -32,7 +34,7 @@ html , body{
     padding:1rem 2rem;
     display: flex;
     gap: 2rem;
-    color: black;
+    color: white;
 
 }
 
@@ -41,8 +43,8 @@ html , body{
     transform: translateY(-0.2rem) ;
 }
 .item:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 2rem;
     text-decoration: underline;
 }
@@ -74,3 +76,8 @@ html , body{
     align-items: center;
     border-radius: 5rem;
 }
+
+.footer{
+    padding: 3rem;
+}
+ 
