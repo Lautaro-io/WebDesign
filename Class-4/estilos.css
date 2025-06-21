@@ -89,4 +89,30 @@ h2{
     box-shadow: 4px 4px 10px rgb(42, 42, 42)
 ;}
 
-/* */
+/*¿Cómo aseguraste que todas las cajas midan lo mismo a pesar del padding y margin?
+    Con clases.
+*/
+
+
+/*Explicar en comentarios cuál creen que es más adecuada para un sitio de noticias, uno institucional o una app. 
+
+    Hidden cuando la app no necesita saber tanto la informacion
+    
+    scroll cuando la informacion es relevante 
+
+
+*/
+
+
+/* ¿Qué valor de display usaste? ¿Qué problema aparece si no se controla el box-sizing en este caso? 
+
+    display: inline-block;
+    box-sizing: border-box; , 
+    el problema que ocurre es que la card ocupa mas espacio y hace que se wrapee el contenido para abajo
+
+*/
+
+
+/* ¿Qué propiedad fue necesaria para cumplir con la consigna? ¿Qué pasaría si no se usara? 
+    box-sizing: border-box;
+*/
